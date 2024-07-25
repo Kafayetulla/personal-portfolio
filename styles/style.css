@@ -1,0 +1,119 @@
+
+body{
+    max-width:100%;
+    margin: 5px;
+ }
+ .heder-conatiner-bar{
+     box-shadow: 10px 10px 40px grey;
+     margin: 5px;
+ }
+ .nav-bar{
+     display: flex;
+     justify-content: space-between;
+     margin: 10px 50px 10px 50px;
+     font-size: 30px;
+ }
+ .Mary{
+     margin-top:30px
+ }
+ .Mary span{
+     color: red;
+ }
+ div ul{
+     
+     list-style: none;
+ }
+ .nav-bar-link{
+     display: flex
+     
+ }
+ .nav-bar-link a{
+     text-decoration: none;
+     margin: 60px;
+ }
+ .here{
+     background-color: tomato;
+     padding: 10px 30px;
+     border-radius: 20px;
+ }
+ .hardy-container{
+     display: flex;
+     margin: 50px;
+     background-image: url(../images/developer.png);
+     background-repeat: no-repeat;
+     
+ }
+ .hardy-container img{ width: 70%;}
+ .here-Down{
+     background-color: tomato;
+     padding: 10px 30px;
+     border-radius: 20px;
+     font-size: large;
+     border: none;
+ }
+ .about-container{
+     box-shadow: 10px 10px 40px grey;
+     margin: 5px;
+     padding:20px;
+ }
+ .lave-infromation{
+     display: flex;
+     justify-content: center;
+ }
+ .lave-infromation p{
+     margin: 20px;
+ }
+ 
+ .aside-hesding{
+     text-align: center;
+     font-size: 30px;
+ 
+ }
+ .aside-container{
+     display: flex;
+ }
+ .aside-contex{
+     box-shadow: 10px 10px 40px grey;
+     padding: 10px;
+     margin: 5px;
+ }
+ .resume-hesding{
+     text-align: center;
+     font-size: 35px;
+ }
+ .resume-contex{
+     display: flex;
+     margin: 5px;
+    
+ }
+ .resume-information{
+     box-shadow: 10px 10px 40px grey;
+     margin: 5px;
+     padding: 20px 20px 0 20px ;
+ 
+ }
+ .resume-information h1{
+ font-size: 25px;
+ }
+ .resume-information h2{
+     font-size: 20px;
+ }
+ .btn{
+     text-align: center;
+ }
+ .footer-conect{
+     display: flex;
+     justify-content: center;
+     margin:15px 5px 5px 5px;
+ }
+ .footer-conects{
+     background-color: white;
+     box-shadow: 10px 10px 40px;
+     padding: 10px;
+     margin: ;
+ }
+ .footer-message{
+     background-color: beige;
+     box-shadow: 10px 10px 40px;
+     padding: 20px
+ }
