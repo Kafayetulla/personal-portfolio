@@ -41,6 +41,7 @@ body{
      margin: 50px;
      background-image: url(../images/developer.png);
      background-repeat: no-repeat;
+     margin-left: auto;
      
  }
  .hardy-container img{ width: 70%;}
@@ -116,4 +117,28 @@ body{
      background-color: beige;
      box-shadow: 10px 10px 40px;
      padding: 20px
+ }
+ /* small device  */
+ @media screen and (max-width:576px) {
+ 
+   .hardy-container,.nav-bar-link,.nav-bar,.resume-contex ,.aside-container ,.footer-conect{
+     flex-direction: column;
+     margin: 5px;
+    
+ }
+ .heder-conatiner-bar img{
+     width: 100%;
+ }
+ .footer-message input{
+     margin: 10px;
+     padding: 10px;
+ }
+ 
+ .nav-bar-link li{
+     margin: 10px;
+ }
+ 
+ .nav-bar,.nav-bar-link{
+     text-align: center;
+ }
  }
