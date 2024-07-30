@@ -142,3 +142,23 @@ body{
      text-align: center;
  }
  }
+ /* medium device */
+ @media screen and (min-width:576px) and (max-width:992px) {
+    .nav-bar-link,.hardy-container{
+        flex-direction: column;
+    }
+     .nav-bar-link li{
+        margin: 10px;
+    }
+    .heder-conatiner-bar img{
+        width: 100%;
+    }
+    .aside-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .footer-message{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+ }
